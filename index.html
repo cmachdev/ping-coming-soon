@@ -1,34 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
+  <meta name="description" content="Subscribe, Dashboard">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Ping coming soon page</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
+
 <body>
+  <header class="container">
+    <a href=""><img src="images/logo.svg" alt="Logo"></a>
+  </header>
 
-  We are launching soon!
+  <main class="container">
+    <section class="hero">
+      <header class="hero__header">
+        <h1>We are launching <span>soon!</span></h1>
+        <p>Subscribe and get notified</p>
+      </header>
 
-  Subscribe and get notified
+      <form action="" method="get">
+        <div>
+          <label>Enter your Email</label>
+          <input type="email" name="" id="" placeholder="Your email address">
+          <span>Please provide a valid email address</span>
+        </div>
+        <button type="submit">Notify Me</button>
+      </form>
 
-  Notify Me
+      <picture> 
+        <img 
+          src="images/illustration-dashboard.png"
+          alt="image of a Dashboard" 
+          srcset=""
+          width="640"
+          height="391">
+      </picture>
+    </section>
+  </main>
 
-  &copy; Copyright Ping. All rights reserved.
-
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
+  <footer class="container">
+      <nav class="social__nav"> 
+        <ul>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+          <li>
+            <a href="#"></a>
+          </li>
+        </ul>
+      </nav>
   </footer>
+
 </body>
 </html>
